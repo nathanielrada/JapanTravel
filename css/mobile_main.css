@@ -1,0 +1,33 @@
+@media all and (max-width: 767px) {
+  section.blogs .blog-container{
+    height: 0 !important;
+    width: 100%;
+    padding-bottom: 100%;    
+  }
+}
+
+@media all and (max-width: 992px) {
+  section.map-spots .places-info-container .tab-content.places-category-content{
+    height: 206px;
+    overflow-y: scroll;
+  }
+  section.map-spots .weather-info-container .list-container{
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 1524px) {
+  section.map-spots .pin-container .location-info-container{
+    width: initial;
+    height: 100%;
+  }
+  section.map-spots .pin-container .location-info-container .place-image{
+    display: none;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  #map_modal .map-container{
+    overflow: scroll;
+  }
+}
